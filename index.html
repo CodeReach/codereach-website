@@ -5,6 +5,8 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 
 	Extra styling and stuff by: James Xu (so blame me if anything goes wrong)
+
+	Further modifications for 2019-2020 by: David Hui
 -->
 <html>
 	<head>
@@ -57,7 +59,7 @@
 									<ul>
 										<li><a href="index.html">Home</a></li>
 										<li><a href="about.html">About Us</a></li>
-										<li><a href="https://register.codereach.ca">Sign Up</a></li>
+										<!--<li><a href="https://register.codereach.ca">Sign Up</a></li>-->
 										<li><a href="resources.html">Resources and Lessons</a></li>
 									</ul>
 								</div>
@@ -75,7 +77,10 @@
 							Coding course for elementary school students<br>
 							<span id="date-time">Every Thursday | 4:00 - 5:30</span></p>
 							<ul class="actions special">
-								<li><a href="https://register.codereach.ca" class="button primary">Apply Now!</a></li>
+								<!--<li><a href="https://register.codereach.ca" class="button primary">Apply Now!</a></li>-->
+								<li><a class="button primary"
+									   href="https://www.youtube.com/channel/UCJUiri_eZkDSuOQ-LD03hlg">Join Us On
+									YouTube!</a></li>
 							</ul>
 						</div>
 						<a href="#one" class="more scrolly">Learn More</a>
@@ -85,8 +90,10 @@
 					<section id="one" class="wrapper style1 special">
 						<div class="inner">
 							<header class="major">
-								<h2>CodeReach teaches the fundementals of computer science to Grade 7 and 8 students</h2>
-								<p>CodeReach helps create the foundation of computer science for students to prepare them for more complicated computer science classes in the future.</p>
+								<h2>CodeReach teaches the fundamentals of computer science to Grade 7 and 8
+									students</h2>
+								<p>CodeReach helps young students learn the basics of computer science and programming
+									to prepare them for success in STEM.</p>
 							</header>
 						</div>
 					</section>
@@ -139,7 +146,7 @@
 							<div>
 								<hr />
 								<h4>Contact Us</h4>
-								<form name="contact" netlify>
+								<form data-netlify-recaptcha="true" name="contact" netlify>
 									<div class="row gtr-uniform">
 										<div class="col-6 col-12-xsmall">
 											<input type="text" name="name" id="name" value="" placeholder="Name" />
@@ -149,6 +156,9 @@
 										</div>
 										<div class="col-12">
 											<textarea name="message" id="message" placeholder="Enter your message" rows="6"></textarea>
+										</div>
+										<div class="col-12">
+											<div data-netlify-recaptcha="true"></div>
 										</div>
 										<div class="col-12">
 											<ul class="actions">
@@ -166,11 +176,15 @@
 					<section id="cta" class="wrapper style4">
 						<div class="inner">
 							<header>
-								<h2>Applications are open!</h2>
-								<p>Accepting Grade 7-8 students.</p>
+								<!--<h2>Applications are open!</h2>
+								<p>Accepting Grade 7-8 students.</p>-->
+								<h2>Join us on YouTube!</h2>
+								<p>Classes every Thursday from 4:00 pm - 5:30 pm</p>
 							</header>
 							<ul class="actions stacked">
-								<li><a href="https://register.codereach.ca" class="button fit primary">Apply Now!</a></li>
+								<!--<li><a href="https://register.codereach.ca" class="button fit primary">Apply Now!</a></li>-->
+								<a class="button primary"
+								   href="https://www.youtube.com/channel/UCJUiri_eZkDSuOQ-LD03hlg">Join Us!</a>
 							</ul>
 						</div>
 					</section>
@@ -181,6 +195,9 @@
 							<li><a href="https://twitter.com/codereach" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
 							<li><a href="https://www.facebook.com/VMSSCodeReach/" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
 							<li><a href="https://www.instagram.com/codereach.vmss/" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
+							<li><a class="icon fa-youtube"
+								   href="https://www.youtube.com/channel/UCJUiri_eZkDSuOQ-LD03hlg"><span class="label">YouTube</span></a>
+							</li>
 							<li><a href="mailto:hello@codereach.ca" class="icon fa-envelope-o"><span class="label">Email</span></a></li>
 						</ul>
 						<ul class="copyright">
@@ -197,8 +214,7 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
-<!-- 			<script async src="assets/js/custom.js"></script>
- -->			<!-- Global site tag (gtag.js) - Google Analytics -->
+		<!-- Global site tag (gtag.js) - Google Analytics -->
 			<script async src="https://www.googletagmanager.com/gtag/js?id=UA-86188538-4"></script>
 			<script async src='https://www.google.com/recaptcha/api.js'></script>
 			<script>
